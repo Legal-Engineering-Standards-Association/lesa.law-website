@@ -15,7 +15,7 @@ The website is deployed at https://lesa.law
    ```bash
    git clone https://github.com/bpetes/deprecated-leso-landingpage.git
    cd deprecated-leso-landingpage
-````
+   ```
 
 2. Install dependencies (if applicable):
 
