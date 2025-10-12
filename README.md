@@ -71,5 +71,5 @@ This is code is made available under the MIT license. See license.md for more de
 
 ## Contact / Further Info
 
-If you want to resurrect or build on the LESO landing page again, you may reach out to the original maintainers or refer to the successor repository (if available).
+Please open a PR or issue if you would like to contribute or report an error on the website.
 
