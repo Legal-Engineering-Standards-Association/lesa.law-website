@@ -1,4 +1,4 @@
-# LESO Landing Page
+# LESA Landing Page
 
 This repository contains the landing page for the LESA project.  
 
@@ -13,8 +13,8 @@ The website is deployed at https://lesa.law
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/bpetes/deprecated-leso-landingpage.git
-   cd deprecated-leso-landingpage
+   git clone git@github.com:Legal-Engineering-Standards-Association/lesa.law-website.git
+   cd lesa.law-website
    ```
 
 2. Install dependencies (if applicable):
