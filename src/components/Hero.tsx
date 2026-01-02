@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="flex justify-center mb-6">
             <img 
               src="/lovable-uploads/f99e6c39-f7d9-4b03-ab9b-5fa4cc593801.png" 
-              alt="LESO Logo" 
+              alt="LESA Logo" 
               width="auto"
               height="96"
               fetchPriority="high"
@@ -26,7 +26,7 @@ const Hero = () => {
             <span className="font-normal bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent mb-2 py-[8px]">
               Legal Engineering
             </span>
-            <span>Standards Organization</span>
+            <span>Standards Association</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-fade-in" style={{
@@ -43,7 +43,7 @@ const Hero = () => {
               <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
             </a>
             <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-center gap-2 text-accent hover:text-accent/90 transition-colors duration-300 px-6 py-3 w-full sm:w-auto">
-              <span>Join the Organization</span>
+              <span>Join the Association</span>
               <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </div>

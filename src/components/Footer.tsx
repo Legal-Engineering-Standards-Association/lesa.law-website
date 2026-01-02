@@ -14,7 +14,7 @@ const Footer = () => {
           <h2 className="text-3xl font-light mb-2">Get in Touch</h2>
           <div className="w-16 h-1 bg-accent mb-6"></div>
           <p className="text-primary-foreground/70 mb-6">
-            Have questions or want to contribute to LESO? Contact our team.
+            Have questions or want to contribute to LESA? Contact our team.
           </p>
           
           <a 
@@ -29,7 +29,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
-            © 2025 Legal Engineering Standards Organization. All rights reserved.
+            © 2025 Legal Engineering Standards Association. All rights reserved.
           </div>
           
           <div className="flex flex-wrap justify-center gap-6">

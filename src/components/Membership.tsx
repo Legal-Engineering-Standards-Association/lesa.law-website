@@ -50,7 +50,7 @@ const Membership = () => {
           </div>
           <h2 className="section-title">Participate in Standards Formation</h2>
           <p className="text-muted-foreground">
-            LESO invites legal engineers, technologists, academics, and institutions to contribute to the 
+            LESA invites legal engineers, technologists, academics, and institutions to contribute to the 
             development of shared standards that will define the future of legal agreements. Membership is 
             open to individuals and organizations with a commitment to transparent, collaborative governance.
           </p>
@@ -94,7 +94,7 @@ const Membership = () => {
           <div className="inline-flex items-center gap-3 bg-accent/10 px-6 py-4 rounded-xl animate-fade-in">
             <BookOpen className="w-5 h-5 text-accent" />
             <span className="text-sm">
-              LESO is currently developing its governance framework. <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="text-accent font-medium">Reach out</a> to express interest in participating.
+              LESA is currently developing its governance framework. <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="text-accent font-medium">Reach out</a> to express interest in participating.
             </span>
           </div>
         </div>

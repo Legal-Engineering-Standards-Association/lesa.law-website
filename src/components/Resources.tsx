@@ -48,7 +48,7 @@ const Resources = () => {
           <h2 className="section-title">Documentation & Support</h2>
           <p className="text-muted-foreground">
             Our resources support legal engineers and developers in understanding, implementing, 
-            and building upon the standards developed by LESO.
+            and building upon the standards developed by LESA.
           </p>
         </div>
         

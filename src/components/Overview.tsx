@@ -26,14 +26,14 @@ const Overview = () => {
               <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">Legal Engineering</span>
             </h2>
             <p className="text-muted-foreground mb-6">
-              The Legal Engineering Standards Organization (LESO) is a neutral, community-led effort to support the emerging field of legal engineering. 
-              By fostering collaborative frameworks that converge toward a unified standard, LESO bridges legal reasoning and software design in ways that are resilient, 
+              The Legal Engineering Standards Association (LESA) is a neutral, community-led effort to support the emerging field of legal engineering. 
+              By fostering collaborative frameworks that converge toward a unified standard, LESA bridges legal reasoning and software design in ways that are resilient, 
               interoperable, and future-focused.
             </p>
             <p className="text-muted-foreground mb-6">
               Legal engineering has a rich history—from early markup languages and contract modeling to Ricardian contracts in the 1990s. 
               Today, a new generation of tools—blockchain, AI, and programmable infrastructure—are transforming how legal agreements are created, 
-              enforced, and understood. LESO provides a place for professionals across law, technology, and policy to collaborate on a common standard 
+              enforced, and understood. LESA provides a place for professionals across law, technology, and policy to collaborate on a common standard 
               that will guide this evolution while allowing for diverse contributions and perspectives.
             </p>
             <a 

@@ -52,7 +52,7 @@ const Navbar = () => {
           />
           <span className="text-gradient font-semibold">LESO</span>
           <span className="ml-2 text-sm text-muted-foreground font-light hidden md:inline">
-            Legal Engineering Standards Organization
+            Legal Engineering Standards Association
           </span>
         </a>
 
