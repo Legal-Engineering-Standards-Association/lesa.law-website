@@ -65,7 +65,7 @@ When contributing:
 
 ## License & Attribution
 
-This is code is made available under the MIT license. See license.md for more details.
+This is code is made available under the MIT license. See `LICENSE` for more details.
 
 ---
 
