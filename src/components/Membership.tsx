@@ -5,7 +5,7 @@ const Membership = () => {
   const membershipTiers = [
     {
       title: "Standards Committee",
-      description: "Shape the direction of LESO's working groups and contribute directly to the development of foundational standards.",
+      description: "Shape the direction of LESA's working groups and contribute directly to the development of foundational standards.",
       icon: <ShieldCheck className="w-10 h-10 text-accent" />,
       features: [
         "Voting rights on all standards proposals",

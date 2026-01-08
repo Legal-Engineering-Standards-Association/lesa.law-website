@@ -44,13 +44,13 @@ const Navbar = () => {
         >
           <img 
             src="/lovable-uploads/f99e6c39-f7d9-4b03-ab9b-5fa4cc593801.png" 
-            alt="LESO Logo" 
+            alt="LESA Logo" 
             width="28"
             height="28"
             fetchPriority="high"
             className="h-7 mr-2"
           />
-          <span className="text-gradient font-semibold">LESO</span>
+          <span className="text-gradient font-semibold">LESA</span>
           <span className="ml-2 text-sm text-muted-foreground font-light hidden md:inline">
             Legal Engineering Standards Association
           </span>
@@ -107,12 +107,12 @@ const Navbar = () => {
           >
             <img 
               src="/lovable-uploads/f99e6c39-f7d9-4b03-ab9b-5fa4cc593801.png" 
-              alt="LESO Logo" 
+              alt="LESA Logo" 
               width="32"
               height="32"
               className="h-8 mr-3"
             />
-            <span className="text-gradient">LESO</span>
+            <span className="text-gradient">LESA</span>
           </a>
           {['Overview', 'Benefits', 'Membership'].map((item) => (
             <a 

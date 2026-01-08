@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
             
             <div className="prose prose-slate max-w-none">
               <p>
-                LESO.law ("we", "our", or "us") respects your privacy and is committed to 
+                LESA.law ("we", "our", or "us") respects your privacy and is committed to 
                 protecting it. This Privacy Policy explains how we collect, use, and protect 
                 information when you visit our website.
               </p>

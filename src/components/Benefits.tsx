@@ -91,7 +91,7 @@ const Benefits = () => {
               <div className="glass text-xs font-mono bg-white p-6 rounded-xl max-h-96 overflow-hidden animate-blur-in">
                 <pre className="whitespace-pre-wrap break-words">
 {`{
-  "$schema": "https://leso.org/schema/v1.0/agreement.json",
+  "$schema": "https://lesa.law/schema/v1.0/agreement.json",
   "metadata": {
     "title": "Smart Contract License Agreement",
     "version": "1.0.0",

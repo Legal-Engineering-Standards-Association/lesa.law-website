@@ -4,10 +4,6 @@ const Hero = () => {
   return <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-block mb-4">
-            <span className="chip bg-secondary/50 backdrop-blur-sm border border-white/10 py-1.5 px-4">Coming Soon</span>
-          </div>
-          
           <div className="flex justify-center mb-6">
             <img 
               src="/lovable-uploads/f99e6c39-f7d9-4b03-ab9b-5fa4cc593801.png" 
