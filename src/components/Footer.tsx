@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
           
           <a 
-            href="https://forms.gle/vAFMbfzsJLeEwBXx9" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-accent to-accent/80 hover:from-accent hover:to-accent/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 inline-flex items-center"

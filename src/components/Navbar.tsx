@@ -1,7 +1,19 @@
 
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Menu, X } from 'lucide-react';
+import { Github, Menu, X } from 'lucide-react';
+
+const XLogo = ({ size = 18 }: { size?: number }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26L22.5 21.75h-6.622l-5.187-6.789-5.94 6.789H1.44l7.73-8.835L1.5 2.25h6.789l4.7 6.205L18.244 2.25zm-1.161 17.52h1.833L7.748 4.126H5.78l11.303 15.644z" />
+  </svg>
+);
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,8 +84,28 @@ const Navbar = () => {
               {item}
             </a>
           ))}
+          <div className="flex items-center space-x-3">
+            <a
+              href="https://github.com/Legal-Engineering-Standards-Association"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LESA on GitHub"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+            >
+              <Github size={18} />
+            </a>
+            <a
+              href="https://x.com/lesa_law"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LESA on X"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+            >
+              <XLogo size={18} />
+            </a>
+          </div>
           <a 
-            href="https://forms.gle/vAFMbfzsJLeEwBXx9" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-accent to-accent/80 hover:from-accent hover:to-accent/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
@@ -125,13 +157,33 @@ const Navbar = () => {
             </a>
           ))}
           <a 
-            href="https://forms.gle/vAFMbfzsJLeEwBXx9" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-accent to-accent/80 hover:from-accent hover:to-accent/90 text-white px-6 py-3 rounded-md text-lg font-medium mt-4 transition-colors duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Contact
+          </a>
+          <a
+            href="https://github.com/Legal-Engineering-Standards-Association"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LESA on GitHub"
+            className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            <Github size={22} />
+          </a>
+          <a
+            href="https://x.com/lesa_law"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LESA on X"
+            className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            <XLogo size={22} />
           </a>
         </div>
       </div>

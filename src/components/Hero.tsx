@@ -34,11 +34,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{
           animationDelay: '0.4s'
         }}>
-            <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-accent to-accent/80 hover:from-accent hover:to-accent/90 text-white px-6 py-3 rounded-md font-medium transition-all duration-300 w-full sm:w-auto relative overflow-hidden group">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-accent to-accent/80 hover:from-accent hover:to-accent/90 text-white px-6 py-3 rounded-md font-medium transition-all duration-300 w-full sm:w-auto relative overflow-hidden group">
               <span className="relative z-10">Learn More</span>
               <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
             </a>
-            <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-center gap-2 text-accent hover:text-accent/90 transition-colors duration-300 px-6 py-3 w-full sm:w-auto">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-center gap-2 text-accent hover:text-accent/90 transition-colors duration-300 px-6 py-3 w-full sm:w-auto">
               <span>Join the Association</span>
               <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
             </a>

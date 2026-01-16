@@ -1,5 +1,5 @@
 
-import { FileJson, Layers, Scale, Lock, ArrowRight } from 'lucide-react';
+import { FileJson, Layers, Scale, Lock } from 'lucide-react';
 import { useState } from 'react';
 
 const Overview = () => {
@@ -36,15 +36,6 @@ const Overview = () => {
               enforced, and understood. LESA provides a place for professionals across law, technology, and policy to collaborate on a common standard 
               that will guide this evolution while allowing for diverse contributions and perspectives.
             </p>
-            <a 
-              href="#" 
-              className="group inline-flex items-center gap-2 text-accent"
-            >
-              <span className="relative overflow-hidden">
-                <span className="relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-accent after:origin-bottom-right after:transition-transform after:duration-300 group-hover:after:scale-x-100 group-hover:after:origin-bottom-left">Read our whitepaper</span>
-              </span>
-              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </a>
           </div>
           
           <div className="order-1 md:order-2 grid grid-cols-2 gap-4">

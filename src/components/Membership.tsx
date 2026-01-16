@@ -78,7 +78,7 @@ const Membership = () => {
                   </ul>
                 </div>
                 <a 
-                  href="https://forms.gle/vAFMbfzsJLeEwBXx9" 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf2S2x63ewcDiqeYVjHBnZS192NgDdgHDS74CKVuLv7xZVu-A/viewform?usp=dialog" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full py-3 text-center bg-secondary rounded-lg text-sm font-medium hover:bg-secondary/70 transition-colors duration-300"
@@ -90,14 +90,6 @@ const Membership = () => {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-3 bg-accent/10 px-6 py-4 rounded-xl animate-fade-in">
-            <BookOpen className="w-5 h-5 text-accent" />
-            <span className="text-sm">
-              LESA is currently developing its governance framework. <a href="https://forms.gle/vAFMbfzsJLeEwBXx9" target="_blank" rel="noopener noreferrer" className="text-accent font-medium">Reach out</a> to express interest in participating.
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );
